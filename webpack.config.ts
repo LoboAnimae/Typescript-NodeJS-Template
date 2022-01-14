@@ -2,7 +2,6 @@ import path from 'path';
 import webpack from 'webpack';
 import nodeExternals from 'webpack-node-externals';
 import TerserPlugin from 'terser-webpack-plugin';
-import CopyPlugin from 'copy-webpack-plugin';
 
 const config = {
     entry: {
